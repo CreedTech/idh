@@ -191,7 +191,7 @@ function App() {
             </label>
             <label
               htmlFor="fileInput"
-              className="bg-gray-300 border border-gray-300 text-black px-10 py-4 rounded-lg cursor-pointer"
+              className="bg-gray-600 border border-gray-300 text-white px-10 py-2 rounded-lg cursor-pointer"
             >
               Browse files
             </label>
@@ -213,7 +213,7 @@ function App() {
             </label>
             <label
               htmlFor="fileInput"
-              className="bg-gray-300 border border-gray-300 text-black px-10 py-4 rounded-lg cursor-pointer"
+              className="bg-gray-600 border border-gray-300 text-white px-10 py-2 rounded-lg cursor-pointer"
             >
               Browse files
             </label>
@@ -228,7 +228,7 @@ function App() {
 
           <button
             type="submit"
-            className="mb-4 text-white bg-gray-600 hover:bg-blue-800  focus:outline-none  font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center "
+            className="mb-4 text-white bg-gray-600   focus:outline-none  font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center "
           >
             Submit
           </button>
