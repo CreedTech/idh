@@ -6,7 +6,7 @@ import detectMobileBrowser from 'detect-mobile-browser';
 
 const isMobile = detectMobileBrowser();
 
-if (isMobile) {
+if (!isMobile) {
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
       <App />
