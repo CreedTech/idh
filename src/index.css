@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-image {
+  background: url('../src/assets/saffu-pYaKs30p9zg-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: gray;
+  }
