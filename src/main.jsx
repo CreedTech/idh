@@ -13,11 +13,10 @@ if (isMobile) {
     </React.StrictMode>
   );
 } else {
-  ReactDOM.createRoot(
+  ReactDOM.createRoot(document.getElementById('root')).render(
     <div>
       <h1>Access Denied</h1>
       <p>This site is only accessible on mobile devices.</p>
-    </div>,
-    document.getElementById('root')
+    </div>
   );
 }
