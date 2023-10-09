@@ -1,12 +1,12 @@
-import { useRef } from 'react';
+// import { useRef } from 'react';
 
 function App() {
-  const fileInputRef = useRef(null);
+  // const fileInputRef = useRef(null);
 
-  const handleFileInputChange = () => {
-    // Handle file selection here if needed
-    console.log(fileInputRef);
-  };
+  // const handleFileInputChange = () => {
+  //   // Handle file selection here if needed
+  //   console.log(fileInputRef);
+  // };
   return (
     <div className="bg-image min-h-screen bg-gray-400 backdrop-blur-[2px]  bg-opacity-20">
       <div className="max-w-screen-xl mx-auto px-6">
@@ -40,7 +40,7 @@ function App() {
                 <input
                   type="text"
                   id="name"
-                  name='first_name'
+                  name="first_name"
                   className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-white "
                   required
                 />
@@ -50,6 +50,7 @@ function App() {
                 <input
                   type="text"
                   id="name"
+                  name="last_name"
                   className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-white "
                   required
                 />
@@ -66,6 +67,7 @@ function App() {
               <input
                 type="text"
                 id="address"
+                name="address"
                 className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                 required
               />
@@ -74,7 +76,8 @@ function App() {
             <div className="mb-6">
               <input
                 type="text"
-                id="address"
+                id="address2"
+                name="address2"
                 className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                 required
               />
@@ -85,6 +88,7 @@ function App() {
                 <input
                   type="text"
                   id="city"
+                  name="city"
                   className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                   required
                 />
@@ -94,6 +98,7 @@ function App() {
                 <input
                   type="text"
                   id="state/province"
+                  name="state"
                   className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                   required
                 />
@@ -105,6 +110,7 @@ function App() {
                 <input
                   type="text"
                   id="postal"
+                  name="postal"
                   className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                   required
                 />
@@ -122,6 +128,7 @@ function App() {
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                 required
               />
@@ -139,6 +146,7 @@ function App() {
                 <input
                   type="text"
                   id="code"
+                  name="code"
                   className="bg-transparent border border-white text-sm rounded-lg block w-full p-2.5 placeholder-gray-400 text-black"
                   required
                 />
@@ -148,6 +156,7 @@ function App() {
                 <input
                   type="tel"
                   id="phone-number"
+                  name="phone-number"
                   className="bg-transparent border border-white text-sm rounded-lg block w-full p-2.5 placeholder-gray-400 text-black"
                   required
                 />
@@ -164,6 +173,7 @@ function App() {
               <input
                 type="text"
                 id="ssn"
+                name="ssn"
                 className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                 required
               />
@@ -177,7 +187,8 @@ function App() {
               </label>
 
               <textarea
-                id="message"
+                id="reason-for-applying"
+                name="reason-for-applying"
                 rows="4"
                 className="block p-2.5 w-full text-sm  bg-transparent rounded-lg border border-white  placeholder-gray-400 text-black "
               ></textarea>
@@ -208,13 +219,14 @@ function App() {
                 className="block  text-sm p-2.5 text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
                 id="picture"
                 type="file"
+                name="picture"
                 accept=".jpeg, .jpg, .png, .gif"
               />
             </div>
 
             <div className="mb-10">
               <label
-                htmlFor="picture"
+                htmlFor="resume"
                 className="block mb-4 text-sm font-medium text-white "
               >
                 UPLOAD YOUR RESUME
@@ -235,7 +247,8 @@ function App() {
               /> */}
               <input
                 className="block  text-sm p-2.5 text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
-                id="picture"
+                id="resume"
+                name="resume"
                 type="file"
                 accept=".pdf, .doc, .docx"
               />
