@@ -41,7 +41,7 @@ function App() {
                   type="text"
                   id="name"
                   name="first_name"
-                  className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-white "
+                  className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black  "
                   required
                 />
                 <p className="text-white text-sm">First Name</p>
@@ -51,7 +51,7 @@ function App() {
                   type="text"
                   id="name"
                   name="last_name"
-                  className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-white "
+                  className="bg-transparent border border-white  text-sm rounded-lg  block w-full p-2.5  placeholder-gray-400 text-black "
                   required
                 />
                 <p className="text-white text-sm">Last Name</p>
